@@ -1,0 +1,26 @@
+body{
+font-family:poppins;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+padding-top:50px;
+flex-wrap:wrap;}
+
+canvas{ border: 2px solid rebeccapurple;   
+max-width:400px;
+min-height:400px;} 
+
+.toolbox{background-color:rebeccapurple;
+padding:10px 125px 10px 125px;
+max-width:400px;
+display:flex;}
+
+.toolbox > *{
+	background-color:#fff;
+	display:inline-flex;
+	border:none;
+	align-items:center;
+	justify-content:center;
+	height:30px;
+	width:30px;}
